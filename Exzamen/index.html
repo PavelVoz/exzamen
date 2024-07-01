@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фабрика</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Фабрика</h1>
+    <div id="app">
+        <div>
+            <h2>Товары</h2>
+            <button onclick="addDepartment()">Добавить товар</button>
+            <button onclick="updateDepartment()">Обновить товар</button>
+            <button onclick="deleteDepartment()">Удалить товар</button>
+            <div id="departments"></div>
+        </div>
+        <div>
+            <h2>Модели</h2>
+            <button onclick="addProduct()">Добавить модель</button>
+            <button onclick="updateProduct()">Обновить модель</button>
+            <button onclick="deleteProduct()">Удалить модель</button>
+            <div id="products"></div>
+        </div>
+        <div>
+            <h2>Поступления</h2>
+            <button onclick="addSale()">Добавить поступление</button>
+            <button onclick="updateSale()">Обновить поступление</button>
+            <button onclick="deleteSale()">Удалить поступление</button>
+            <div id="sales"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
